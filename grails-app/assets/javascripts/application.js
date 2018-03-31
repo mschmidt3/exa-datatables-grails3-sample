@@ -7,16 +7,15 @@
 //
 //= require jquery-2.2.0.min
 //= require bootstrap
-//= require exa-datatables-bootstrap3
 //= require_tree .
 //= require_self
 
 if (typeof jQuery !== 'undefined') {
     (function($) {
-        $('#spinner').ajaxStart(function() {
-            $(this).fadeIn();
+        $(document).ajaxStart(function() {
+            $('#spinner').fadeIn();
         }).ajaxStop(function() {
-            $(this).fadeOut();
+            $('#spinner').fadeOut();
         });
     })(jQuery);
 }

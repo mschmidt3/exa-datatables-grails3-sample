@@ -1,4 +1,4 @@
-package exa.datatables.sample
+package exa.datatables.grails3.sample
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration

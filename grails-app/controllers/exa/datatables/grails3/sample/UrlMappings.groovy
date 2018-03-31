@@ -1,4 +1,4 @@
-package exa.datatables.sample
+package exa.datatables.grails3.sample
 
 class UrlMappings {
 
